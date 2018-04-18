@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: violet;
+}
+.container{
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+}
+h1 {
+    font-weight: normal;
+    color: violet;
+}
+h2 {
+    color: #333333;
+}
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    background: violet;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 15px;
+}
+#author {
+    text-align: right;
+}
+#qoutes {
+    max-width: 600px;
+    margin: auto;
+}
+#tweet {
+    float: left;
+}
